@@ -1,0 +1,119 @@
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 16px;
+    background-image: url("http://www.penguincooling.com/images/page-background/blue-fade.jpg"); 
+    color: #696969;
+    padding: 3px;
+}
+
+.main {
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+
+
+h1 {
+    font-family: Georgia, serif;
+    border-bottom: 3px solid #cc9900;
+    color: #996600;
+    font-size: 30px;
+}
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: #4D70B8;
+}
+
+#mainPic {
+    width: 38%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 5px solid #ffffff;
+    border-radius: 4px 4px 4px 4px;
+
+
+}
+
+#mainPic img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.slideshow {
+    margin: auto;
+    height: 450px;
+    width: 800px;
+    line-height: 168.75px;
+    text-align: center;
+    margin-bottom: 0px;
+    border: 5px solid #ffffff;
+    border-radius: 4px 4px 4px 4px;
+    background-color: black;
+
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.resize_fit_center {
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 99.2%;
+    
+
+}
+#scroll {
+    position: relative;
+    left: 33.5%;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+.navigate {
+    width: 100px;
+    font-size: 30px;
+    color: yellow;
+
+}
+
+.navigate a {
+    color: black;
+    text-decoration: none;
+}
+
+.stats, .stats th, .stats tr, .stats td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left; 
+}
